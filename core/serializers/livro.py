@@ -5,5 +5,5 @@ from core.models import Livro
 
 class LivroSerializer(ModelSerializer):
     class Meta:
-        fields = '__all__'
         model = Livro
+        fields = '__all__'
